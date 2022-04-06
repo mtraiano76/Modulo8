@@ -44,3 +44,8 @@ let titulo = document.querySelector ("h1");
 titulo.innerHTML = titulo.innerHTML += " Soy un contenido nuevo desde JS";
 titulo.classList.add("titulo-destacado");
 
+let confirmaEliminarClase = confirm ("Queres eliminar la clase del titulo?");
+ if (confirmaEliminarClase){
+     titulo.classList.remove ("titulo-destacado");
+     
+ }
